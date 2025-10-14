@@ -33,7 +33,7 @@ It allows users to upload meeting audio files, automatically transcribe them, su
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/<your-username>/Meeting-Summarizer.git
 cd Meeting-Summarizer
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 Create a .env file in the project root:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 
-▶️ Run the App
+### ▶️ Run the App
 Start the FastAPI server:
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 Then open in your browser: http://127.0.0.1:8000
@@ -83,7 +83,7 @@ Upload an audio file and wait for the summarized output to appear.
 | `created_at`     | TEXT    | Timestamp (UTC)           |
 
 
-🧠 Example Output
+### 🧠 Example Output
 
 Summary:
 
@@ -91,12 +91,13 @@ Discussed release timeline. Decided to finish feature X by next Friday.
 Action item: Bob to complete documentation.
 
 
-Action Items:
+### Action Items:
+
 | Task                | Assignee | Due Date    | Rationale               |
 | ------------------- | -------- | ----------- | ----------------------- |
 | Write documentation | Bob      | Next Friday | Docs needed for release |
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 Python 3.10+
 FastAPI
@@ -105,7 +106,7 @@ OpenAI Whisper (Audio Transcription)
 GPT-3.5-Turbo (Summarization)
 HTML + JS (Frontend)
 
-📋 Notes
+### 📋 Notes
 The meetings.db file will be auto-created in the root directory.
 If the API key is missing, the app will show "OPENAI_API_KEY not set" errors.
 For testing without API key, a mock mode can be added easily.
