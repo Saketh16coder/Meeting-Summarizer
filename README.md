@@ -1,4 +1,4 @@
-[![Watch the demo video](https://img.shields.io/badge/▶️%20Watch%20Demo%20Video-blue?style=for-the-badge)](https://drive.google.com/file/d/1HgLhJy073BVfJcz_bZ3jjbFj5VUiGtm1/view?usp=sharing)
+
 
 # 🧠 Meeting Summarizer
 
@@ -7,6 +7,9 @@ It allows users to upload meeting audio files, automatically transcribe them, su
 
 ---
 
+### Click down for presentation
+[![Watch the demo video](https://img.shields.io/badge/▶️%20Watch%20Demo%20Video-blue?style=for-the-badge)](https://drive.google.com/file/d/1HgLhJy073BVfJcz_bZ3jjbFj5VUiGtm1/view?usp=sharing)
+---
 ## 🚀 Features
 - 🎤 **Audio Upload** – Supports `.wav`, `.mp3`, `.m4a` and other formats  
 - 🧾 **Automatic Transcription** – Uses **OpenAI Whisper (whisper-1)**  
