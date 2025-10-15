@@ -37,7 +37,7 @@ It allows users to upload meeting audio files, automatically transcribe them, su
 
 ### 1️⃣ Clone the repository
 ```
-git clone https://github.com/<your-username>/Meeting-Summarizer.git
+git clone https://github.com/Saketh16coder/Meeting-Summarizer.git
 cd Meeting-Summarizer
 ```
 ### 2️⃣ Create a virtual environment
