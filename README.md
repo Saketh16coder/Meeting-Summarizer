@@ -1,4 +1,4 @@
-
+[![Watch the demo video](https://img.shields.io/badge/▶️%20Watch%20Demo%20Video-blue?style=for-the-badge)](https://drive.google.com/file/d/1HgLhJy073BVfJcz_bZ3jjbFj5VUiGtm1/view?usp=sharing)
 
 # 🧠 Meeting Summarizer
 
