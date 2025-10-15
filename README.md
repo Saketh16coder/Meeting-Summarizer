@@ -33,26 +33,33 @@ It allows users to upload meeting audio files, automatically transcribe them, su
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the repository
-
+```
 git clone https://github.com/<your-username>/Meeting-Summarizer.git
 cd Meeting-Summarizer
-
+```
 ### 2️⃣ Create a virtual environment
+```
 python -m venv .venv
 source .venv/bin/activate       # macOS/Linux
+```
 # OR
+```
 .venv\Scripts\activate          # Windows
+```
 
 ### 3️⃣ Install dependencies
 pip install -r requirements.txt
 
 ### 4️⃣ Add your OpenAI API key
 Create a .env file in the project root:
+```
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
-
+```
 ### ▶️ Run the App
 Start the FastAPI server:
+```
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
 Then open in your browser: http://127.0.0.1:8000
 
 Upload an audio file and wait for the summarized output to appear.
